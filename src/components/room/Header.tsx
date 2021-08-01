@@ -1,10 +1,19 @@
 import React from "react";
+import styled from 'styled-components'
 
-const Header: React.FC = () => {
+type HeaderProps = {
+    height: number;
+}
+
+const Header: React.FC<HeaderProps> = ({height}) => {
+
+    const Header = styled.div`
+        height: ${height}px
+    `
     return(
-       <div>
-           헤더
-       </div> 
+       <Header>
+           헤더123
+       </Header> 
     )
 }
 
