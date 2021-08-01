@@ -15,10 +15,12 @@ const Room: React.FC = () => {
 
     const CustomRow = styled(Row)`
         height: calc(100% - ${headerHeight}px);
+
     `
 
     const CustomCol = styled(Col)`
         padding: 20px;
+        height: 100%;
     `
 
     return (

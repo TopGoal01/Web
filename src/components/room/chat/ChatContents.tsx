@@ -1,14 +1,28 @@
 import React from 'react'
 import styled from 'styled-components'
+import ChatBubble from './ChatBubble'
 
 const ChatContents: React.FC = () => {
     const ChatContents = styled.div`
-        height: calc(100% - 70px);   
+        height: calc(100% - 70px);
+        overflow: scroll;
     `
 
     return(
         <ChatContents>
-            채팅 내용
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+            <ChatBubble/>
+
         </ChatContents>
     )
 }

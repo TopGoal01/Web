@@ -10,6 +10,7 @@ const Chat: React.FC = () => {
         height: 100%;
         border-radius: 20px;
         background-color: #F3F6FA;
+        box-shadow: 0 1px 6px rgba(0,0,0,0.16), 0 1px 6px rgba(0,0,0,0.23);
     `
 
     return(
