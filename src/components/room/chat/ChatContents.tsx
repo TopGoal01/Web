@@ -4,7 +4,7 @@ import ChatBubble from './ChatBubble'
 
 const ChatContents: React.FC = () => {
     const ChatContents = styled.div`
-        height: calc(100% - 70px);
+        height: calc(100% - 80px);
         overflow: scroll;
     `
 

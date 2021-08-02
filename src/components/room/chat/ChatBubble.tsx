@@ -5,7 +5,7 @@ import { UserOutlined } from '@ant-design/icons'
 
 const ChatBubble: React.FC = () => {
     const ChatBubble = styled.div`
-        padding: 20px;
+        padding: 20px 20px 0px 20px;
         display: flex;
     `
 

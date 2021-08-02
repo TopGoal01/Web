@@ -11,7 +11,7 @@ const ChatInput: React.FC = () => {
         height: 50px;
         background-color: #FFFFFF;
         border-radius: 10px;
-        margin: 0px 20px;
+        margin: 10px 20px 0px 20px;
         box-shadow: 0 1px 2px rgba(0,0,0,0.16), 0 1px 6px rgba(0,0,0,0.23);
     `
     
