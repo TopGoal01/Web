@@ -8,9 +8,11 @@ import { Row, Col } from 'antd';
 
 const Room: React.FC = () => {
     const headerHeight = 80
+    const playListHeight = 120
 
     const Room = styled.div`
         height: 100%;
+        padding: 20px;
     `
 
     const CustomRow = styled(Row)`
@@ -29,8 +31,8 @@ const Room: React.FC = () => {
             <Header height={headerHeight}/>
             <CustomRow>
                 <Col span={18}>
-                    <Video/>
-                    <PlayList/>
+                    <Video playListHeight={playListHeight}/>
+                    <PlayList height={playListHeight}/>
                 </Col>
                 <CustomCol span={6}>
                     <Chat/>

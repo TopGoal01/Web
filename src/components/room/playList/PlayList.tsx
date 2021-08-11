@@ -2,12 +2,14 @@ import React from 'react'
 import PlayItem from './PlayItem'
 import styled from 'styled-components'
 
+type PlayListProps = {
+    height: number;
+}
 
-const PlayList: React.FC = () => {
+const PlayList: React.FC<PlayListProps> = ({height}) => {
 
     const PlayList = styled.div`
-        height: 160px;
-        background-color: gray;
+        height: ${height}px;
         white-space: nowrap;
         overflow: scroll;
     `
